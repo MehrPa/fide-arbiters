@@ -1,7 +1,7 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import re
 
-PORT = 3000
+PORT = 8000
 
 class HelloWorldHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
